@@ -409,3 +409,27 @@ input:focus, textarea:focus {
 	background-color: rgba(0,0,0,0);
 	color: #0493bd;
 }
+
+
+/*----------------------------------------MEMBER----------------------------------------------*/
+h2{
+	text-align: center;
+}
+
+.thongtin{
+	margin: 20px auto;
+}
+
+.thongtin img{
+	width: 40%;
+	padding-left: 32%;
+}
+
+.thongtinchitiet {
+	position: relative;	
+	margin: 30px auto;
+}
+
+.thongtinchitiet tr th{
+	text-align: left;
+}
