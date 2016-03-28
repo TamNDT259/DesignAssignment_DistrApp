@@ -186,6 +186,87 @@ body{
 	padding-left: 14%;
 }
 
+.team-img img{
+	width: 40%;
+	padding-left: 32%;
+	padding-bottom: 10%;
+}
+.member-img img{
+	width: 30%;
+	padding-left: 14%;
+}
+
+ /*----------------Multiplication Table----------------------*/
+#submit{
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	float: left;
+	position: relative;
+	left: 60%;
+	width: 22%;
+	border: #fbfbfb solid 4px;
+	cursor: pointer;
+	background-color: #3498db;
+	color: white;
+	
+	padding-top: 13px;
+	padding-bottom: 13px;
+
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+
+ 	font-weight: 700;
+ 	font-size: 20px;
+}
+
+#submit:hover{
+	background-color: rgba(0,0,0,0);
+	color: #0493bd;
+}
+
+#label{
+	position: relative;
+	left: 50%;
+	font-size: 20px;
+}	
+
+.number-input {
+	color:#3c3c3c;
+	
+	font-family: Helvetica, Arial, sans-serif;
+  	font-weight:500;
+	font-size: 18px;
+	
+	border-radius: 0;
+	line-height: 22px;
+	background-color: #fbfbfb;
+	padding: 13px 13px 13px 54px;
+	margin-bottom: 10px;
+	width: 30%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+  	border: 0px;
+}
+
+#number{
+	background-image: url(../Image/input.png);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+	border-bottom: 2px solid;
+}
+
+#number:focus{
+	background-image: url(../Image/input.png);
+	background-size: 30px 30px;
+	background-position: 8px 5px;
+  	background-position: 11px 8px;
+	background-repeat: no-repeat;
+	border-bottom: 2px solid;
+}
+
 /*---------------------FOOTER------------------*/
 #footer{
 	height: 40px;
@@ -237,7 +318,7 @@ body{
 	background-color: #fbfbfb;
 	padding: 13px 13px 13px 54px;
 	margin-bottom: 10px;
-	width:100%;
+	width: 100%;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-ms-box-sizing: border-box;
