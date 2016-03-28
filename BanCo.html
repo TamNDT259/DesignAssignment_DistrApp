@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>HandsomeMans</title>
+        <link rel="stylesheet" href="CSS/Style.css">
+        <script src="Javascript/jquery-1.10.2.min.js"></script>
+         <script src="Javascript/Chess.Board.js"></script>
+         <script src="Javascript/Data.js"></script>
+         <script>
+            $(function() {
+                Chess.Board.CurrentState = DEFAULT_BOARD;
+                Chess.Board.Render();
+            });
+
+
+        </script>
+  </head>
+<body>
+	<header id="header">
+		<div id="headerInner">
+			<div id="logo">
+				<a href="#"><img src="Image/logo.png" alt="NHÓM POLO" title="NHÓM POLO" ></img></a>
+			</div>
+		</div>
+	</header>
+		<div id="home">
+			<div class="menu">
+				<ul>
+					<li><a href="DesginAssignment.html"> Trang chủ </a></li>
+					<li><a href="#"> Thành viên </a></li>
+					<li><a href="#"> Học tập </a></li>
+					<li><a href="LienHe.html"> Liên hệ </a></li>
+				</ul>
+		  	</div>
+		  	<div id="main"> 
+				<div id="left">
+					<ul>
+						<li><a href="1312508.html"> 1312508 - Ng Đăng Thiện Tâm </a></li>
+						<li><a href="1312474.html"> 1312474 - Triệu Xuân Quý </a></li>
+						<li><a href="BanCo.html"> Bàn cờ </a></li>
+						<li><a href="BangCuuChuong.html"> Bảng cửu chương </a></li>
+					</ul>
+				</div>
+			<div id="center">
+				<div id="chess_board">
+
+        		</div>
+			</div>
+			<div id="right"></div>		
+			</div>
+		</div>
+	<footer id="footer"> Copyright &copy; by QT group </footer>	
+</body>
+</html>
+
