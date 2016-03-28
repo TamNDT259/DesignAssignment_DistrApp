@@ -199,3 +199,108 @@ body{
 	font-size: 16px;
   
 }
+
+/*------------------CONTACT-------------------*/
+#form-main{
+	width:	100%;
+	float:	left;
+	padding-top:	0px;
+}
+
+#form-div {	
+	padding-left: 35px;
+	padding-right: 35p	x;
+	padding-top: 35px;
+	padding-bottom: 50px;
+	
+	width: 450px;
+	float: left;
+	left: 50%;
+	
+	position: absolute;
+ 	margin-top: 30px;
+	margin-left: -260px;
+	
+	-moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+}
+
+.feedback-input {
+	color:#3c3c3c;
+	
+	font-family: Helvetica, Arial, sans-serif;
+  	font-weight:500;
+	font-size: 18px;
+	
+	border-radius: 0;
+	line-height: 22px;
+	background-color: #fbfbfb;
+	padding: 13px 13px 13px 54px;
+	margin-bottom: 10px;
+	width:100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+  	border: 0px;
+}
+
+.focused{
+	color: #30aed6;
+	border: #30aed6 solid 3px;
+}
+
+/* Icons ---------------------------------- */
+#name{
+	background-image: url(../Image/ava.png);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+	border-bottom: 2px solid;
+}
+
+#name:focus{
+	background-image: url(../Image/ava.png);
+	background-size: 30px 30px;
+	background-position: 8px 5px;
+  	background-position: 11px 8px;
+	background-repeat: no-repeat;
+	border-bottom: 2px solid;
+}
+
+#email{
+	background-image: url(../Image/email.png);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+	border-bottom: 2px solid;
+}
+
+#email:focus{
+	background-image: url(../Image/email.png);
+	background-size: 30px 30px;
+  	background-position: 11px 8px;
+	background-repeat: no-repeat;
+	border-bottom: 2px solid;
+}
+
+#comment{
+	background-image: url(../Image/comment.png);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+	border: 1px groove;
+	margin-top: 10%;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    line-height: 150%;
+    resize:vertical;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+	background-color:white;
+}
