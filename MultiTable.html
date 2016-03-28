@@ -32,11 +32,11 @@
 					</ul>
 				</div>
 			<div id="center">
-				<form>
-					<br><br><p>Bảng cửu chương:   
-					<input type="text" name="number" id="input" ><br><br>
-					</p>
-					<input type="button" value="Submit" onclick="multiTable(number.value)" id="submit"><br><br>
+				<form class="form" id="form2">
+					<br><p class="number">
+						<input name="number" type="text" class="validate[required,custom[onlyLetter],length[0,100]] number-input" placeholder="Number" id="number" />
+						<input type="button" value="Submit" onclick="multiTable(number.value)" id="submit">
+					</p><br><br>
 					<label id="label"></label>
 				</form>
 			</div>
