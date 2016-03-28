@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>HandsomeMans</title>
+        <link rel="stylesheet" href="CSS/Style.css">
+ </head>
+<body>
+	<header id="header">
+		<div id="headerInner">
+			<div id="logo">
+				<a href="#"><img src="Image/logo.png" alt="NHÓM POLO" title="NHÓM POLO" ></img></a>
+			</div>
+		</div>
+	</header>
+		<div id="home">
+			<div class="menu">
+				<ul>
+					<li><a href="HomePage.html"> Trang chủ </a></li>
+					<li><a href="#"> Thành viên </a></li>
+					<li><a href="#"> Học tập </a></li>
+					<li><a href="Contact.html"> Liên hệ </a></li>
+				</ul>
+		  	</div>
+		  	<div id="main"> 
+				<div id="left">
+					<ul>
+						<li><a href=""> 1312508 - Ng Đăng Thiện Tâm </a></li>
+						<li><a href=""> 1312474 - Triệu Xuân Quý </a></li>
+						<li><a href=""> Bàn cờ </a></li>
+						<li><a href="MultiTablePage.html"> Bảng cửu chương </a></li>
+					</ul>
+				</div>
+			<div id="center">
+				<form>
+					<br><br><p>Bảng cửu chương:   
+					<input type="text" name="number" id="input" ><br><br>
+					</p>
+					<input type="button" value="Submit" onclick="multiTable(number.value)" id="submit"><br><br>
+					<label id="label"></label>
+				</form>
+			</div>
+
+			<div id="right"></div>
+			</div>
+		</div>
+	<footer id="footer"> Copyright &copy; by QT group </footer>
+	<script language="javascript">
+    function multiTable(num)
+    {
+       var i, result = "";
+       
+       if(num != null && num >= 1 && num <= 9 && isNaN(num) == false)
+       {
+          for( i = 1; i <= 10; i++)
+          {
+             result += num + " * " + i + " = " + num * i + "<br>";
+             document.getElementById("label").innerHTML = result;
+          }
+       }
+    }
+    </script>
+</body>
+</html>
