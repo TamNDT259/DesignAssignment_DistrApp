@@ -434,6 +434,30 @@ h2{
 	text-align: left;
 }
 
+#blog p
+{
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+#blog ul li 
+{
+	margin: 10px 10px;
+	list-style: none;
+	
+}
+
+#blog ul li a{
+	text-decoration: none;
+}
+
+#blog ul li a.active{
+	color: white;
+	
+}
+
 /*--------------co vua-----------*/
 
 #chess_board { 
@@ -498,3 +522,4 @@ h2{
     -moz-box-shadow:inset 0 0 10px rgba(0,0,0,.4);
     -webkit-box-shadow:inset 0 0 10px rgba(0,0,0,.4);
 }
+
