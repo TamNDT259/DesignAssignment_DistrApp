@@ -523,3 +523,51 @@ h2{
     -webkit-box-shadow:inset 0 0 10px rgba(0,0,0,.4);
 }
 
+/*-----------------------blog-----------------------*/
+#content-blog{
+	margin: 10px 10px;
+}
+
+#content-blog h1{
+	text-align: center;
+	margin-top: 20px;
+	color: #a0380b;
+}
+
+#form-blog{	
+	padding-left: 35px;
+	padding-right: 35p	x;	
+	padding-bottom: 50px;
+	
+	width: 450px;
+	margin-top: 10px;
+	float: left;
+	left: 50%;
+	
+	position: absolute;
+ 	margin-left: -260px;
+	
+	-moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+}
+
+#button-cmt{
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	float:left;
+	width: 30%;
+	border: #fbfbfb solid 4px;
+	cursor:pointer;
+	background-color: #3498db;
+	color:white;
+	font-size:18px;	
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+  	margin-top:-4px;
+ 	 font-weight:700; 	 
+}
+
+#button-cmt:hover{
+	background-color: rgba(0,0,0,0);
+	color: #0493bd;
+}
