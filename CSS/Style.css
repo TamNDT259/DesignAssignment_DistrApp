@@ -176,10 +176,20 @@ body{
 	box-sizing: border-box;
 }
 
+<<<<<<< HEAD
 #team-img img{
 	width: 40%;
 	padding-left: 32%;
 	padding-bottom: 10%;
+=======
+#team-img{
+	position: static;
+}
+#team-img img{
+	width: 40%;
+	margin-left: 32%;
+	margin-bottom: 10%;
+>>>>>>> HomePage_Feature_TamNguyen
 }
 #member-img img{
 	width: 30%;
