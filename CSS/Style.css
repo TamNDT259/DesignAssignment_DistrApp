@@ -423,7 +423,8 @@ h2{
 
 .thongtin img{
 	width: 40%;
-	padding-left: 32%;
+	padding-left: 30%;
+	padding-top:2%;
 }
 
 .thongtinchitiet {
@@ -434,6 +435,7 @@ h2{
 .thongtinchitiet tr th{
 	text-align: left;
 }
+<<<<<<< HEAD
 
 #blog p
 {
@@ -572,3 +574,5 @@ h2{
 	background-color: rgba(0,0,0,0);
 	color: #0493bd;
 }
+=======
+>>>>>>> MemberPage
