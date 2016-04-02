@@ -31,7 +31,8 @@ Yêu cầu **thiết kế**:
     * [x] Icon, màu sắc,...
 * [ ] Thiết kế responsive
 
-
+##Tham khảo:
+http://www.ddth.com/showthread.php/806417-làm-bàn-cờ-vua-bằng-java-
 
 ## Demo
 
